@@ -12,14 +12,14 @@
 }
 
 .center-body {
-    flex: 2;
-    flex-basis: 80%;
     height: 1000px;
 }
+/* center body can probably be removed once the rest is established well.
+It was originally implimented to maintain margins on the sides during
+stretching and shrinking. May no longer be necessary */
 
 .first-fifth {
-    margin: 0px 75px 0px 75px;
-    /* padding: ; */
+    padding: 0px 12vw 0px 12vw;
     background-color: #1F2937;
 }
 
@@ -45,22 +45,29 @@
 
 .first-mass-container {
     display: flex;
+    padding-top: 80px;
 }
 
 .left-text-box-first {
     flex-basis: 50%;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
 }
 
 .awesome-title {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    padding: .5vw;
 }
 
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    padding: .5vw;
 }
 
 .signup-button {
@@ -68,6 +75,8 @@
     background-color: #3882F6;
     padding: 4px;
     border-radius: 6px;
+    margin: .5vw .5vw 20px .5vw;
+    width: 80px;
 }
 
 .image-box-first {
@@ -75,9 +84,16 @@
     align-items: center;
     justify-content: center;
     flex-basis: 50%;
+    object-fit: contain;
+    max-height: 300px;
 }
 
 .image-first {
-    width: 100px;
-    aspect-ratio: 1:1;
+    width: 100%;
+}
+
+
+
+.second-fifth {
+    padding: 0px 12vw 0px 12vw;
 }
