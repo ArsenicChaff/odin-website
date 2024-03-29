@@ -19,7 +19,7 @@ It was originally implimented to maintain margins on the sides during
 stretching and shrinking. May no longer be necessary */
 
 .first-fifth {
-    padding: 0px 12vw 0px 12vw;
+    padding: 0px 14vw 0px 14vw;
     background-color: #1F2937;
 }
 
@@ -95,5 +95,41 @@ stretching and shrinking. May no longer be necessary */
 
 
 .second-fifth {
-    padding: 0px 12vw 0px 12vw;
+    padding: 0px 14vw 0px 14vw;
+}
+
+.second-mass-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.random-title {
+    text-align: center;
+}
+
+.grouped-round-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.round-box-container {
+    width: 112px;
+    margin: 2vw;
+}
+
+.round-box {
+    height: 110px;
+    width: 110px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.subtext-under-box {
+    padding-top: 5px;
+    font-size: 12px;
+    text-align: center;
 }
