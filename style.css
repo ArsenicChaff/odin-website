@@ -26,7 +26,7 @@ It was originally implimented to maintain margins on the sides during
 stretching and shrinking. May no longer be necessary */
 
 .first-fifth {
-    padding: 15px 14vw 70px 14vw;
+    padding: 20px 14vw 70px 14vw;
     background-color: #1F2937;
 }
 
@@ -69,13 +69,13 @@ stretching and shrinking. May no longer be necessary */
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    padding: .5vw;
+    padding: .5vw 1vw .5vw 0vw;
 }
 
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
-    padding: .5vw;
+    padding: .5vw 1vw .5vw 0vw;
 }
 
 .signup-button {
@@ -83,8 +83,9 @@ stretching and shrinking. May no longer be necessary */
     background-color: #3882F6;
     padding: 4px;
     border-radius: 6px;
-    margin: .5vw .5vw 20px .5vw;
-    width: 80px;
+    border: none;
+    margin: .5vw 0px 20px 0px;
+    width: 100px;
 }
 
 .image-box-first {
@@ -215,7 +216,8 @@ stretching and shrinking. May no longer be necessary */
     color: #F9FAF8;
     border: 1px solid #F9FAF8;
     border-radius: 6px;
-    padding: 4px 22px;
+    width: 100px;
+    padding: 4px 0px;
 }
 
 /* NEXT */
