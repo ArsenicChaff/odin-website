@@ -8,7 +8,7 @@
 }
 
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .center-body {
@@ -19,7 +19,7 @@ It was originally implimented to maintain margins on the sides during
 stretching and shrinking. May no longer be necessary */
 
 .first-fifth {
-    padding: 0px 14vw 0px 14vw;
+    padding: 15px 14vw 70px 14vw;
     background-color: #1F2937;
 }
 
@@ -27,6 +27,7 @@ stretching and shrinking. May no longer be necessary */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .header-logo {
@@ -151,15 +152,15 @@ stretching and shrinking. May no longer be necessary */
     font-style: italic;
     font-weight: light;
     color: #1F2937;
-    margin: 120px 40px 10px 40px;
-    padding: 4px;
+    margin: 0px 40px 10px 40px;
+    padding: 120px 4px 4px 4px;
 }
 
 .testimonial-credit {
     text-align: right;
     margin-right: 40px;
     margin-left: 40px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     font-weight: 900;
     font-size: 22px;
 }
@@ -168,4 +169,42 @@ stretching and shrinking. May no longer be necessary */
 
 .fourth-fifth {
     padding: 0px 14vw 0px 14vw;
+}
+
+.call-to-action-box {
+    margin: 100px 0px;
+    padding: 50px 120px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+
+}
+
+.call-to-action-title {
+    color: #F9FAF8;
+    padding: 5px 0px;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+}
+
+.button-box {
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 6px;
+    padding: 4px 22px;
 }
