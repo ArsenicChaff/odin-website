@@ -183,7 +183,7 @@ stretching and shrinking. May no longer be necessary */
 
 .call-to-action-box {
     margin: 100px 0px;
-    padding: 50px 120px;
+    padding: 50px 10vw;
     background-color: #3882F6;
     border-radius: 12px;
     display: flex;
@@ -209,6 +209,7 @@ stretching and shrinking. May no longer be necessary */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 
 .cta-signup-button {
