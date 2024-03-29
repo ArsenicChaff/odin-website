@@ -4,50 +4,80 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *{
     border: 1px solid red;
 }
 
-body {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-}
-
-.left-empty-box {
-    flex: 1;
-    flex-basis: 10%;
-}
-
-.right-empty-box {
-    flex: 1;
-    flex-basis: 10%;
-}
-/* The empty boxes are to preserve the shrink/stretch behavior desired
-horizontally across the screen */
-
 .center-body {
     flex: 2;
     flex-basis: 80%;
+    height: 1000px;
 }
 
 .first-fifth {
     margin: 0px 75px 0px 75px;
-    padding: ;
+    /* padding: ; */
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo {
     margin-right: auto;
+    font-size: 24px;
+    /* font-weight: ; */
+    color: #F9FAF8;
 }
 
 .header-link {
     text-decoration: none;
-    color: black;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.first-mass-container {
+    display: flex;
+}
+
+.left-text-box-first {
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.awesome-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.image-box-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.image-first {
+    width: 100px;
+    aspect-ratio: 1:1;
 }
