@@ -11,8 +11,15 @@
     /* border: 1px solid red; */
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
 .center-body {
     /* height: 1000px; */
+    max-width: 90%;
 }
 /* center body can probably be removed once the rest is established well.
 It was originally implimented to maintain margins on the sides during
@@ -97,13 +104,14 @@ stretching and shrinking. May no longer be necessary */
 
 .second-fifth {
     padding: 0px 14vw 0px 14vw;
+    background-color: #F9FAF8;
 }
 
 .second-mass-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 60px 0px 60px 0px;
+    padding: 60px 0px;
 }
 
 .random-title {
@@ -168,7 +176,8 @@ stretching and shrinking. May no longer be necessary */
 /* NEXT */
 
 .fourth-fifth {
-    padding: 0px 14vw 0px 14vw;
+    padding: 15vw 14vw;
+    background-color: #F9FAF8;
 }
 
 .call-to-action-box {
@@ -207,4 +216,22 @@ stretching and shrinking. May no longer be necessary */
     border: 1px solid #F9FAF8;
     border-radius: 6px;
     padding: 4px 22px;
+}
+
+/* NEXT */
+
+.fifth-fifth {
+    background-color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.copyright-text {
+    color: #E5E7EB;
+    font-size: 14px;
 }
