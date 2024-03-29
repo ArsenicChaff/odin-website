@@ -12,11 +12,30 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.left-empty-box {
+    flex: 1;
+    flex-basis: 10%;
+}
+
+.right-empty-box {
+    flex: 1;
+    flex-basis: 10%;
+}
+/* The empty boxes are to preserve the shrink/stretch behavior desired
+horizontally across the screen */
+
+.center-body {
+    flex: 2;
+    flex-basis: 80%;
 }
 
 .first-fifth {
-
+    margin: 0px 75px 0px 75px;
+    padding: ;
 }
 
 .header {
@@ -26,4 +45,9 @@ body {
 
 .header-logo {
     margin-right: auto;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
 }
